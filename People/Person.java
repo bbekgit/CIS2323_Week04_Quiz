@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class Person {
-	String firstName, lastName, sex;
+	String firstName, lastName;
+	char sex;
 	int age;
 	Scanner inputDevice = new Scanner(System.in);
 	
@@ -15,8 +16,8 @@ public class Person {
 		System.out.println("Your Last name is: " + lastName);
 		return lastName;
 	}
-		public getSex(){
-		sex = inputDevice.nextLine();
+		private getSex(){
+		sex = inputDevice.nextChar();
 		System.out.println("Your sex is: " + sex);
 		return sex;
 	}
