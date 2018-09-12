@@ -6,25 +6,25 @@ public class Person {
 	int age;
 	Scanner inputDevice = new Scanner(System.in);
 	
-	private getFirstName(){
-		firstName = inputDevice.nextLine();
+	private void getFirstName(){
+		
 		System.out.println("Your First Name is : " + firstName);
-		return firstName;
+		
 	}
-	private getLastName(){
-		lastName = inputDevice.nextLine();
+	private void getLastName(){
+	
 		System.out.println("Your Last name is: " + lastName);
-		return lastName;
+		
 	}
-		private getSex(){
-		sex = inputDevice.nextChar();
+		private void getSex(){
+		
 		System.out.println("Your sex is: " + sex);
-		return sex;
+		
 	}
-	private getAge(){
-		age = inputDevice.nextLine();
+	private void getAge(){
+		
 		System.out.println("Your age is: " + age);
-		return age;
+	
 	}
 	private static void showInfo(){
 		

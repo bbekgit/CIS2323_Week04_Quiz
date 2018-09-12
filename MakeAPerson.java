@@ -1,12 +1,12 @@
-package People;
 
+package People;
 public class MakeAPerson{
 	public static void main(String[] args){
 		Person myPerson= new Person();
-		getFirstName();
-		getLastName();
-		getAge();
-		getSex();
+		getFirstName("Bob");
+		getLastName("Rockers");
+		getAge(35);
+		getSex("m");
 		showInfo();
 	}
 	
